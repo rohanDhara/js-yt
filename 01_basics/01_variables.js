@@ -4,7 +4,7 @@ var accountPassword="12345"
 accountLocation="Maharastra"
 let accountType;
 
-//accountId=999777; // assignment to constant variable is not allowed
+//accountId=999777; // changing value of constant variable is not allowed
 console.log(accountId);
 
 console.table([accountId , accountEmail, accountPassword, accountLocation,accountType]);
