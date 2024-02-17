@@ -5,6 +5,10 @@ accountLocation="Maharastra"
 let accountType;
 
 //accountId=999777; // changing value of constant variable is not allowed
+
+accountEmail="abc@mail.com"
+accountPassword="54321"
+accountLocation="Kolkata"
 console.log(accountId);
 
 console.table([accountId , accountEmail, accountPassword, accountLocation,accountType]); // gives output in tabular form
