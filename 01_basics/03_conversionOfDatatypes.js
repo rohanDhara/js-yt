@@ -15,5 +15,6 @@ console.log(Number(myName));
 
 
 //null=>in String or number gives 0
-//String -> Number => NaN
+//String to Number conversion gives NaN (Not a Number)
 //"" => false
+//"Rohan" => true
