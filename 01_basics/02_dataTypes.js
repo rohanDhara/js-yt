@@ -13,7 +13,7 @@ let isLoggedIn=false;
 let values=null;
 
 console.log(typeof undefined); //typeof => gives datatype of given variables
-console.log(typeof values);
+console.log(typeof (values));
 
 //number
 //string
