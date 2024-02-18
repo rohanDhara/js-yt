@@ -18,7 +18,7 @@ console.log(null<0);
 console.log(null<=0);
 
 /*
-    == and >,<=,>= this opeartors works differently
+    == and >,<=,>= this opeartors works differently.
     for operators like >,<,<=,>= null converts value to 0
     but for == null doesn't convert its value to 0 
     it can be a problem so prefer not to use like this (null>0) or null==0
