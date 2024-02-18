@@ -17,7 +17,8 @@ console.log(typeof values);
 
 //number
 //string
-//boolean
+//boolean => true/false
 //bigint
 //object
 //undefined
+//null => standalone value
