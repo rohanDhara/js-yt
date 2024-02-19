@@ -37,6 +37,7 @@ console.log(firstSymbol===secondSymbol);
 */
 const car = ["BMW","Marcedes","Audi","Mclaren"];
 //console.log(typeof car);
+//Array and Object returns The type as object
 let myObj= {
     name:"Rohan",
     roll:133,
