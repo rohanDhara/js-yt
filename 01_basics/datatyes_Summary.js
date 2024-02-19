@@ -24,8 +24,8 @@ let about;
 const isBigInt=457896521452345789652n
 const firstSymbol=Symbol('123')
 const secondSymbol=Symbol('123');
-console.log(typeof firstSymbol);
-console.log(firstSymbol===secondSymbol);
+// console.log(typeof firstSymbol);
+// console.log(firstSymbol===secondSymbol);
 //console.log(typeof isBigInt);
 
 
@@ -50,3 +50,23 @@ const thisIsMyFunction=function myFunction()
     console.log(9+1);
 }
 //console.log(typeof thisIsMyFunction); //function returns a type i.e object function.
+
+// All The Primitive datatypes are stored inside Stack memory
+//All the Non-Primitive datatypes are stored inside Heap Memory
+
+let myName="Rohan"
+let nickName=myName;
+nickName = "Suman";
+// console.log(nickName);
+// console.log(myName); //Primitive datatypes are not changed a copy is changed as it is not gives any reference
+
+//Non-Primitive Datatypes are changed beacuse it gives a reference to that object not creats any copy like primitive ones
+
+let userOne={
+    name:"Rohan",
+    roll:133
+}
+let userTwo=userOne;
+userTwo.roll=12
+console.log(userOne.roll);
+console.log(userTwo.roll);
