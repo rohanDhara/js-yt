@@ -48,4 +48,4 @@ const thisIsMyFunction=function myFunction()
 {
     console.log(9+1);
 }
-//console.log(typeof thisIsMyFunction); //function returns object function type.
+//console.log(typeof thisIsMyFunction); //function returns a type i.e object function.
