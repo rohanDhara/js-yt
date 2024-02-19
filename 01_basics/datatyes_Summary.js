@@ -22,7 +22,11 @@ const isGraduate = false
 const hasAJob = null;
 let about;
 const isBigInt=457896521452345789652n
-console.log(typeof isBigInt);
+const firstSymbol=Symbol('123')
+const secondSymbol=Symbol('123');
+console.log(typeof firstSymbol);
+console.log(firstSymbol===secondSymbol);
+//console.log(typeof isBigInt);
 
 
 /* 
@@ -44,4 +48,4 @@ const thisIsMyFunction=function myFunction()
 {
     console.log(9+1);
 }
-console.log(typeof thisIsMyFunction); //function returns object function type.
+//console.log(typeof thisIsMyFunction); //function returns object function type.
