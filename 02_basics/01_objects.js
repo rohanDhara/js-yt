@@ -1,3 +1,0 @@
-
-const firstObj;
-const secondObj;
