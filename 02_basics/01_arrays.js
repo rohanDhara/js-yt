@@ -17,6 +17,10 @@ myHero.push(42);
 myHero.pop()
 // console.log(myHero);
 
-myHero.splice(1,3)
+const afterSlice = myHero.slice(1,3);
+console.log(afterSlice);//slice function doesn't affect the orginal array
+console.log(myHero);
+myHero.splice(1,3);//splice function takes out the splice from the origianl array and it affects the origianl array
 console.log(myHero);
 
+//read mdn docs for more information
