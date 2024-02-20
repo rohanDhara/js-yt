@@ -16,7 +16,7 @@ myHero.push(42);
 // console.log(myHero);
 myHero.pop()
 // console.log(myHero);
-
+//try shift unshift operation on your own
 const afterSlice = myHero.slice(1,3);
 console.log(afterSlice);//slice function doesn't affect the orginal array
 console.log(myHero);
