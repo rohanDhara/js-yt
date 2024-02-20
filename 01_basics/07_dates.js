@@ -18,3 +18,4 @@ myTime.toLocaleString('default',
     //here we can define 
 )
 
+//Learn more functions from mdn reference
