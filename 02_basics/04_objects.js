@@ -61,7 +61,27 @@ const college = {
     contact:33-9854-65412
 }
 
-college.collegeName;//we will access like that but 
+// college.collegeName;//we will access like that but 
 
-const {collegeName: name} = college  //object de-structuring
-console.log(name);
+// const {collegeName: name} = college  //object de-structuring
+// console.log(name);
+
+//for react
+// const inReact = ({collegeName}) => {
+
+
+// }
+// console.log(inReact());
+
+//JSON format when we get data from API call we get it in JSON format
+// {
+//    "name" : "Rohan",
+//     "subject" : "CSE",
+//     "pincode" : 70125
+// }
+
+[
+    {},
+    {},
+    {}
+]
