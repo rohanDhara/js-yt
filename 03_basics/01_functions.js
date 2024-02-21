@@ -54,3 +54,11 @@ combineFunc({
     myAge:45
 });
 
+const myArr = [100,200,300,400,500];
+function returnMyArr(getArray)
+{
+    return getArray[2];
+}
+console.log(returnMyArr(myArr));
+
+console.log(returnMyArr([200,400,600,800]));
