@@ -4,7 +4,7 @@ const newArr=["r","frtyg"];
 
 
 //cousinArray.push(friendArray);
-const combinedArray=cousinArray.concat(friendArray); //by using this method we can only concat two 
+const combinedArray=cousinArray.concat(friendArray); //by using this method we can only concat two this {...,...} is called spread function
 //console.log(cousinArray[4][2]);
 //console.log(combinedArray);
 
