@@ -11,14 +11,14 @@ const myData =
     age:22,
     "full Name":"Rohan Dhara",
     isGraduate:false,
-    [mySm]:"key2",//specified that it is a symbol
+    [mySm]:"key2",//specified that it is a symbol by []
     location:"Madhyamgram",
     email:"rohan@mail.go",
     holdings:["land","house"]   
 }
 // console.log(myData);
 // console.log(myData.age);
-// console.log(myData["location"]); //we can also access data like this 
+// console.log(myData["location"]); //we can also access data like this from an object
 // console.log(myData[mySm]);//access symbol like this
 // console.log(typeof myData[mySm]); 
 
@@ -29,11 +29,14 @@ myData.email="goo@bool.com"
 myData.email="@microsoft.com"
 // console.log(myData.email);
 
-myData.greetings = function greeting()
+myData.greetings = function()
 {
-    console.log("Hello from Rohan");
+    //console.log("Hello from Rohan");
 }
-myData.greetingsTwo = function greetingTwo()
+
+// console.log(myData.greetings());
+myData.greetingsTwo = function()
 {
-    console.log(`hello from ${myData.name}`); //Error in here fix it before go to next video
+    console.log(`hello from ${this.email}`);
 }
+//console.log(myData.greetingsTwo());
