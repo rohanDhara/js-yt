@@ -37,6 +37,6 @@ myData.greetings = function()
 // console.log(myData.greetings());
 myData.greetingsTwo = function()
 {
-    console.log(`hello from ${this.email}`);
+    console.log(`hello from ${this.email}`); //String interpolation
 }
 //console.log(myData.greetingsTwo());
