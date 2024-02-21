@@ -17,4 +17,4 @@ const house =  cousinArray.flat();
 const firstArr=[5,4,7,[4,6,],[1,2,4,[1,2,3,5]]];
 
 console.log(firstArr.flat(Infinity));
-//learn isArray,fro,from etc methods from mdn docs
+//learn isArray,for,from etc methods from mdn docs
