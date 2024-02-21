@@ -8,7 +8,7 @@ const combinedArray=cousinArray.concat(friendArray); //by using this method we c
 //console.log(cousinArray[4][2]);
 //console.log(combinedArray);
 
-
+//below the method is called spread method
 const anotherArray = [...cousinArray,...friendArray,...newArr];//most important.By using thhis method we can concat more than one separarted by a comma
 
 const house =  cousinArray.flat();
