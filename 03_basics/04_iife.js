@@ -10,5 +10,5 @@
     console.log(`DB CONNECTED FOR SECOND TIME FOR ${name}`);
 })("Rohan")
 //() => ()
-
+//shift+alt+down arrow to copy selected code down
 
