@@ -51,4 +51,32 @@ const result = myNums
                     .map( (num) => {return num * 10} )
                     .map( (num) => num + 1 )
                     .filter( (num) => {return num > 50 } )
-console.log(result);
+// console.log(result);
+
+const total=myNums.reduce( function(acc,num) 
+{
+    return acc+num;
+},0 )
+
+const anotherTotal = myNums.reduce( (acc,nums) => (acc+nums),0 )
+
+// console.log(anotherTotal);
+
+const customerCart = [
+    {
+        itemName : "item1",
+        price : 2500
+    },
+    {
+        itemName : "item2",
+        price : 2000
+    },
+    {
+        itemName : "item3",
+        price : 2200
+    }
+]
+
+const amountToBePayed=customerCart.reduce( (acc,item) => (acc+item.price),0 );
+
+console.log(amountToBePayed);
