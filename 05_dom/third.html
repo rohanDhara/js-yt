@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohan's Page</title>
+</head>
+<body>
+    
+</body>
+<script>
+   const myDiv = document.createElement('div')
+   console.log(myDiv);
+   myDiv.className="container"
+   myDiv.id=Math.round(Math.random()*10 + 1)
+   myDiv.setAttribute("title","titleSetByMe")
+   myDiv.style.backgroundColor="purple"
+   myDiv.style.padding = "12px"
+//    myDiv.innerText="Hello foim Of Java Scrpit"
+   const addText = document.createTextNode("I am from .CreateTextNode Method")
+   myDiv.appendChild(addText)
+
+   document.body.appendChild(myDiv)
+</script>
+</html>
