@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: antiquewhite;">
+    <div class="container">
+       <!-- comment -->
+        <div class="days">Monday</div>
+        <div class="days">Tuesday</div>
+        <div class="days">Wednesday</div>
+        <div class="days">Thursday</div>
+    </div>
+</body>
+<script>
+    const myDoc=document.querySelector('.container');
+    // console.log(myDoc);
+    // console.log(myDoc.children)
+   for (let i = 0; i <myDoc.children.length; i++) 
+   {
+        // console.log(myDoc.children[i]);
+   }
+   myDoc.children[1].style.color = "violet"
+//    console.log(myDoc.firstElementChild)
+//    console.log(myDoc.lastElementChild)
+
+   const innerDoc=document.querySelector('.days')
+//    console.log(innerDoc);
+//    console.log(innerDoc.parentElement);
+//    console.log(innerDoc.nextElementSibling);
+//    console.log(innerDoc.parentElement.style.backgroundColor="pink");
+    console.log("NODES: ",myDoc.childNodes)
+</script>
+</html>
