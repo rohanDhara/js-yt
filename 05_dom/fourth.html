@@ -11,11 +11,37 @@
     </ul>
 </body>
 <script>
-    function addLanguage(langName)
-    {
-        const  li = document.createElement('li')
-        li.innerHTML = `${langName}` 
+    function addElement(langName){
+        const myElem=document.createElement('li')
+        myElem.innerHTML=`${langName}`  //by using innerHTML we have to traverse the whole tree it is not an optimized approach
+        document.querySelector('.lang').appendChild(myElem)
     }
+    addElement('JAVA')
+    addElement('python')
 
+    //optimized approach of doing it
+    function addInOptimizedWay(param) {
+        const myoptiElem = document.createElement('li')
+        myoptiElem.appendChild(document.createTextNode(`${param}`)) // this is the optimized way always use createTextNode 
+        document.querySelector('.lang').appendChild(myoptiElem)
+    }
+    addInOptimizedWay('perl')
+    addInOptimizedWay('C++')
+
+    //Edit 
+    //1.
+    const secondLi=document.querySelector('li:nth-child(2)')
+    secondLi.innerHTML = "Kotlin" // this is not the optimized way as written before
+    //2.
+    const changingSecondLi = document.createElement('li')
+    changingSecondLi.textContent = "C#"
+    secondLi.replaceWith(changingSecondLi)
+    //3.
+    const firstLi = document.querySelector("li:first-child")
+    firstLi.outerHTML = "<li>TypeScript</li>"
+
+    //Remove
+    const delLastLi=document.querySelector("li:last-child")
+    delLastLi.remove()
 </script>
 </html>
