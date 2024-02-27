@@ -8,31 +8,25 @@ button.forEach((color) => {
         console.log(e.target);
         switch(e.target.id)
         {
-            case 'gold':
+            case 'violet':
                 body.style.backgroundColor = e.target.id;
                 break;
-            case 'aqua':
+            case 'indigo':
                 body.style.backgroundColor = e.target.id;
                 break;
-            case 'palevioletred':
+            case 'blue':
                 body.style.backgroundColor = e.target.id;
                 break;
-            case 'chartreuse':
+            case 'green':
                 body.style.backgroundColor = e.target.id;
                 break;
-            case 'sienna':
+            case 'yellow':
                 body.style.background = e.target.id
                 break;
-            case 'firebrick':
+            case 'orange':
                 body.style.background = e.target.id
                 break;
-            case 'midnightblue':
-                body.style.background = e.target.id
-                break;
-            case 'palegoldenrod':
-                body.style.background = e.target.id
-                break;
-            case 'teal':
+            case 'red':
                 body.style.background = e.target.id
                 break;
             default:

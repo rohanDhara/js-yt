@@ -18,32 +18,27 @@ html {
     display: inline-block;
   }
   
-  #gold {
-    background: gold;
+  #violet {
+    background: violet;
   }
   
-  #aqua {
-    background: aqua;
+  #indigo {
+    background: indigo;
   }
-  #palevioletred {
-    background: palevioletred;
+  #blue {
+    background: blue;
   }
-  #chartreuse {
-    background: chartreuse;
+  #green {
+    background: green;
   }
-  #sienna {
-    background:sienna;
+  #yellow {
+    background:yellow;
   }
-  #firebrick {
-    background: firebrick;
+  #orange {
+    background: orange;
   }
-  #midnightblue {
-    background: midnightblue;
+  #red {
+    background: red;
   }
-  #palegoldenrod {
-    background: palegoldenrod;
-  }
-  #teal {
-    background: teal;
-  }
+  
   
