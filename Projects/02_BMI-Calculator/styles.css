@@ -25,4 +25,5 @@ span{
 #button
 {
     padding: 7px;
+    display: inline;
 }
