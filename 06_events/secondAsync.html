@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setTimeout event</title>
+</head>
+<body>
+    <h1>Hello from Rohan</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+</body>
+<script>
+    const forInterval = function(th){
+        console.log(th,Date.now());
+    }
+    
+    document.querySelector('#start').addEventListener('click',function() {
+    let stopId =  setInterval(forInterval,1000,"Third parameter");
+  
+    document.querySelector('#stop').addEventListener('click',function() {
+        clearInterval(stopId)
+    },false)
+},false)
+
+</script>
+</html>
