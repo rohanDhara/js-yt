@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Click Me</button>
+</body>
+<script>
+
+    class Angular{
+        constructor(){
+            this.library = "Angular library"
+            this.server = "https://localhost:3000:xe"
+
+            //requirement
+            document
+                .querySelector('button')
+                .addEventListener('click',this.handleClick.bind(this))
+        }
+
+        handleClick(){
+            console.log("Button clicked");
+            console.log(this.server);
+        }
+    }
+
+    const app = new Angular();
+
+</script>
+</html>
