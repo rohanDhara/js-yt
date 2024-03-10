@@ -27,3 +27,9 @@ span{
     padding: 7px;
     display: inline;
 }
+.info{
+    color:#AFAFAF;
+    font-weight: bold;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

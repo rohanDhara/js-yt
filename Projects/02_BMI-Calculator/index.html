@@ -8,7 +8,7 @@
 </head>
 <body class="main">
     <h1>BMI Generator</h1>
-    <div>
+    <div class="container" >
         <form action="#">
             <label for="height">
                 <span>Height in CM:</span>
@@ -19,11 +19,11 @@
                 <input type="number" name="weight" class="input" id="scale2">
             </label>
                 <input type="submit" value="Calculate" id="button">
-            <p></p>    
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
+            <p id="result"></p>    
+            <p id="detail-result"></p>
+            <p class="info">Below 18.5 is Underweight</p>
+            <p class="info">18.5 to 25.9 is Healthy</p>
+            <p class="info">greater than 25.9 is Overweight</p>
         </form>
     </div>    
 </body>
